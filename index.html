@@ -12,22 +12,17 @@
       <div class="hearder_top">
         <!--와이파이표시하는최상단-->
         <div class="header_column">
-          <!--plane icon-->
           <i class="fas fa-plane"></i>
-          <!--wifi icon-->
           <i class="fas fa-wifi"></i>
         </div>
         <div class="header_column">
           <span class="header_time">18:38</span>
         </div>
         <div class="header_column">
-          <!--moon icon-->
           <i class="fas fa-moon"></i>
-          <!--bluetooth icon-->
           <i class="fab fa-bluetooth-b"></i>
           <span class="header_battery">
             66%
-            <!--battery icon-->
             <i class="fas fa-battery-three-quarters"></i>
           </span>
         </div>
@@ -35,16 +30,68 @@
       <div class="header_bottom">
         <!--프렌즈 적히는곳-->
         <div class="header_column">
-          <span class="header_text">manage</span>
+          <span class="header_text">Manage</span>
         </div>
         <div class="header_column">
           <span class="header_text">fridens <span class="header_number">1</span></span>
         </div>
         <div class="header_column">
-          <!--bolt icon-->
           <i class="fas fa-cog fa-lg"></i>
+          <!--//.fa-lg 는 아이콘커지게하는거-->
         </div>
       </div>
     </header>
+    <main class="fridens">
+      <div class="search-bar">
+        <i class="fa fa-search"></i>
+        <input type="text" placeholder="Find friedns, chats, Plus Friends" />
+      </div>
+      <section class="friends_section">
+        <header class="friends_section-header">
+          <h6 class="friends_section-title">My Profile</h6>
+        </header>
+        <div class="friends_section-rows">
+          <div class="friends_section-row">
+            <img src="" alt="" />
+            <span class="friends_section-name">Kmj</span>
+          </div>
+          <div class="friends_section-row">
+            <img src="" alt="" />
+            <span class="friends_section-name">Friends' Names Display</span>
+          </div>
+        </div>
+      </section>
+      <section class="friends_section">
+        <header class="friends_section-header">
+          <h6 class="friends_section-title"></h6>
+        </header>
+        <div class="friends_section-rows">
+          <div class="friends_section-row">
+            <div class="friends_section-column">
+              <img src="" alt="" />
+              <span class="friends_section-name">Kmj</span>
+            </div>
+            <span class="friends_section-tagline">
+              Muzzi - Con
+            </span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--화면하단부 네비게이션기능-->
+    <nav class="tab-bar">
+      <a href="index.html" class="tab-bar_tab tab-bar_tab-selected">
+        <i class="fa fa-user"></i><span class="tab-bar_title">Friends</span>
+      </a>
+      <a href="chats.html" class="tab-bar_tab">
+        <i class="fa fa-comment"></i><span class="tab-bar_title">Chats</span>
+      </a>
+      <a href="find.html" class="tab-bar_tab">
+        <i class="fa fa-search"></i><span class="tab-bar_title">Find</span>
+      </a>
+      <a href="more.html" class="tab-bar_tab">
+        <i class="fa fa-ellipsis-h"></i><span class="tab-bar_title">More</span>
+      </a>
+    </nav>
   </body>
 </html>
