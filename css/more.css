@@ -15,6 +15,11 @@
   color: #523737;
 }
 
+.more_header a {
+  text-decoration: none;
+  color: black;
+}
+
 .more_header .more-header_column {
   display: flex; /*이미지옆에아이템을 둬야하니까*/
   align-items: center;
@@ -24,6 +29,7 @@
   width: 50px;
   border-radius: 50%;
   margin-right: 20px;
+  animation: 1s rotateFriend ease-in-out;
 }
 
 .more-header_info .more-header_title {
@@ -42,4 +48,77 @@
   background-color: white;
 }
 .more .more_options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more_options .more_option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  padding: 20px;
+  color: #523737;
+}
+
+.more_option .more_option-title {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.more .more-plus_friends {
+  padding: 20px;
+}
+.more-plus_friends .plus-friends_header {
+  /*plusfriends와learnmore가서로 옆에위치할수있게*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.plus-friends_header .plus-friends_learn-more {
+  color: #b4b4b4;
+}
+
+.plus-friends_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.plus-friends_items .plus-friends_item {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.plus-friends_item i {
+  margin-right: 20px;
+}
+
+.plus-friends_item .plus-friends_item-title {
+  font-size: 13px;
+}
+.more_links {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.more_links .more_option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.more_links .more_option img {
+  height: 45px;
+  margin-bottom: 10px;
+}
+
+.more_links .more_options-title {
+  font-size: 12px;
 }

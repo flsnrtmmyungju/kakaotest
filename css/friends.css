@@ -16,7 +16,10 @@
 .friends_section-row.with-tagline {
   justify-content: space-between; /*상태메세지있는유저프로필간격조절*/
 }
-
+.friends_section-row .friends_section-name {
+  display: flex;
+  align-items: center;
+}
 .friends_section-tagline {
   font-size: 10px;
   background-color: #f0f0f0;
@@ -29,6 +32,19 @@
   width: 40px;
   border-radius: 50%;
   margin-right: 15px;
+  animation: 1s rotateFriend ease-in-out;
+}
+
+@keyframes rotateFriend {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg) scale(1.2);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
 }
 .friends_section-row a {
   text-decoration: none;

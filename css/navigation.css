@@ -15,6 +15,10 @@
   flex-direction: column;
   text-decoration: none;
   color: #c1c1c1;
+  transition: transform 0.2s linear;
+}
+.tab-bar .tab-bar_tab:hover {
+  transform: scale(1.1);
 }
 
 /*i= icon 아이콘들은 display: block;되어야함 이유는 아이콘들은 디폴트로 폰트처럼 설정이됨 inline으로 보인다는뜻.*/
